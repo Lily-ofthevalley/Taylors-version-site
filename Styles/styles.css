@@ -1,0 +1,112 @@
+body{
+    background-color: beige;
+}
+
+footer{
+    background-color: rgb(232, 221, 182);
+    padding: 20px;
+    border-radius: 50px;
+}
+
+h1{
+    text-align: center;
+    font-size: 75px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(232, 221, 182);
+    padding: 10px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+.navBar ul{
+    list-style-type: none;
+    width: 800px;
+    margin: auto;
+}
+
+.navBar a{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    text-align: center;
+    padding: 15px;
+    display: block;
+    background-color: rgb(232, 221, 182);
+    float: left;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+
+.navBar a:hover{
+    background-color: rgb(214, 205, 174);
+}
+
+h2{
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-color: rgb(232, 221, 182);
+    padding: 10px;
+    border-radius: 50px;
+    clear: both;
+}
+
+.flexContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 800px;
+}
+
+.flexContainer div{
+    padding: 30px;
+    margin: auto;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.flexContainer #tekst1flex{
+    width: 400px;
+    background-color: rgb(232, 221, 182);
+    border-radius: 50px;
+    order: 1;
+    margin-left: 50px;
+}
+
+.flexContainer #tekst2flex{
+    width: 400px;
+    background-color: rgb(232, 221, 182);
+    border-radius: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.flexContainer #img1flex{
+margin-left: 300px;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+.flexContainer #img2flex{
+    order: 4;  
+    margin-right: 250px;
+}
+
+#Tsimageblackdress{
+    width: 345px;
+    height: 445px;       
+}
+
+#speaknowtvalbum{
+    width: 445px;
+    height: 445px;  
+}
+
+#footerlogo{
+    width: 100px;
+    height: 100px;
+}
