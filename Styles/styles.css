@@ -1,11 +1,6 @@
 body{
     background-color: beige;
-}
-
-footer{
-    background-color: rgb(232, 221, 182);
-    padding: 20px;
-    border-radius: 50px;
+    min-height: 100vh;
 }
 
 h1{
@@ -98,15 +93,46 @@ margin-bottom: 0;
 
 #Tsimageblackdress{
     width: 345px;
-    height: 445px;       
+    height: 445px; 
+    border-radius: 50px;      
 }
 
 #speaknowtvalbum{
     width: 445px;
     height: 445px;  
+    border-radius: 50px;
+}
+
+.flexContainer2{
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(232, 221, 182);
+    padding: 20px;
+    border-radius: 50px;
+    margin-top: auto;
 }
 
 #footerlogo{
+    width: 150px;
+    height: 150px;
+}
+
+#githublogo{
     width: 100px;
     height: 100px;
+}
+
+.linklistfooter{
+    list-style-type: none;
+}
+
+.linkfooter{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(168, 161, 136);
+    margin-right: 20px;
+}
+
+.flexContainer2 #githublogolink{
+    align-self: center;
 }
