@@ -13,6 +13,10 @@ h1{
     margin-bottom: 30px;
 }
 
+.navBar{
+    overflow: auto;
+}
+
 .navBar ul{
     list-style-type: none;
     width: 800px;
@@ -103,13 +107,69 @@ margin-bottom: 0;
     border-radius: 50px;
 }
 
+.gridContainer{
+    display: grid;
+    grid-template-columns: 30% 30%;
+    place-items: center;
+    column-gap: 50px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.gridContainer div{
+    padding: 20px;
+    text-align: center;
+}
+
+#griddiva, #griddivd{
+    padding: 20px;
+    text-align: center;
+}
+
+#griddivb, #griddivc{
+    background-color: rgb(232, 221, 182);
+    border-radius: 50px;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+}
+
+#flowerdress, #fearlessalbum, #redtvalbum, #redoutfittaylor, #speaknowtvalbum, #speaknowdress,
+#a1989tvalbum, #taylorindunes, #repoutfit, #taylorblackdressrep, #debuttvalbumconcept, #taylorgreendress{
+    width: 400px;
+    height: 400px;
+    border-radius: 50px;
+}
+
+#formheadtext{
+    background-color: rgb(232, 221, 182);
+    font-size: 20px;
+    border-radius: 50px;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+}
+
+form{
+    background-color: rgb(232, 221, 182);
+    border-radius: 50px;
+    width: 600px;
+    padding: 20px;
+    margin: auto;
+}
+
+fieldset{
+    border: none;
+}
+
 .flexContainer2{
     display: flex;
     justify-content: flex-start;
     background-color: rgb(232, 221, 182);
     padding: 20px;
     border-radius: 50px;
-    margin-top: auto;
+    margin-top: 20px;
 }
 
 #footerlogo{
